@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+    <link href="index.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background:none;" id="regularNavbar">
+        <a class="navbar-brand" href="index.html"><img src="https://ik.imagekit.io/07om3f7hz/Trendles-icon.png?updatedAt=1722250323851" alt="Logo" /></a>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Events.html">Events</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Magazine.html">Magazine</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Clubs
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="litsoc.html">Litsoc</a>
+                        <a class="dropdown-item" href="chitrachaya.html">Chitrachaya</a>
+                        <a class="dropdown-item" href="design.html">Design</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Our Team.html">Our Team</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background:none; display: none;" id="quickMenu">
+        <a class="navbar-brand" href="#"><img src="https://ik.imagekit.io/07om3f7hz/Trendles-icon.png?updatedAt=1722250323851" alt="Logo" /></a>
+        <button class="navbar-toggler" align="right" type="button" onclick="toggleQuickMenu()">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="quick-menu" id="quickMenuContent">
+            <a class="navbar-brand1" href="#"><img src="https://ik.imagekit.io/07om3f7hz/Trendles-icon.png?updatedAt=1722250323851" alt="Logo" /></a>
+            <div class="close-button"><img src="https://ik.imagekit.io/07om3f7hz/into.png?updatedAt=1722250392065" height="20px" width="20px"></div>
+            <p align="center" style="font-size: 20px;">Quick Menu</p>
+            <div class="nav-container">
+                <ul class="quicknavbar-nav">
+                    <li class="nav-item">
+                        <a href="index.html">
+                            <div class="nav-content">
+                                <div class="nav-app">
+                                    <div class="home">
+                                        <img src="https://ik.imagekit.io/07om3f7hz/Trendles-dark-icon%202.png?updatedAt=1722250323770" alt="Home">
+                                    </div>
+                                </div>
+                                <span>Home</span>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="Events.html">
+                            <div class="nav-content">
+                                <div class="nav-app1">
+                                    <img src="https://ik.imagekit.io/07om3f7hz/planner%20(1).png?updatedAt=1722333754892" alt="Magazine">
+                                </div>
+                                <span>Events</span>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="Magazine.html">
+                            <div class="nav-content">
+                                <div class="nav-app">
+                                    <img src="https://ik.imagekit.io/07om3f7hz/Magazine.png?updatedAt=1722250393948" alt="Magazine">
+                                </div>
+                                <span>Magazine</span>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="litsoc.html">
+                            <div class="nav-content">
+                                <div class="nav-app1">
+                                    <img src="https://ik.imagekit.io/07om3f7hz/award%20(1).png?updatedAt=1722333754859" alt="litsoc">
+                                </div>
+                                <span>Litsoc</span>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="nav-container">
+                <ul class="quicknavbar-nav">
+                    <li class="nav-item">
+                        <a href="chitrachaya.html">
+                            <div class="nav-content">
+                                <div class="nav-app">
+                                    <img src="https://ik.imagekit.io/07om3f7hz/Photo.png?updatedAt=1722250323943" alt="Chitrachaya">
+                                </div>
+                                <span>Chitrachaya</span>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="design.html">
+                            <div class="nav-content">
+                                <div class="nav-app">
+                                    <img src="https://ik.imagekit.io/07om3f7hz/Design.png?updatedAt=1722250391591" alt="Design">
+                                </div>
+                                <span>Design</span>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="Our Team.html">
+                            <div class="nav-content">
+                                <div class="nav-app1">
+                                    <img src="https://ik.imagekit.io/07om3f7hz/group%20(1).png?updatedAt=1722333754820" alt="Our Team">
+                                </div>
+                                <span>Our Team</span>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </div><br>
+        </div>
+    </nav>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <div class="container">
+        <div class="left-content">
+            <div class="text-content"><br>
+                <p class="head">TRENDLES,</p>
+                <p class="para">"Trendles, a name that whispers of an eternal wheel, ever in motion, spinning through realms of boundless creativity and unending passion without limits."Our social club is a vibrant garden filled with dreamy daisies to thorny roses, for dreamers and doers alike, where the arts and intellects converge in numerous activities. Trendles nurtures every facet of your creative spirit, from thought-provoking debates and literary explorations to innovative design projects and impactful social initiatives. Here, the spark of imagination never dims but fuels the eternal wheel of inspiration, and invites you to join in the perpetual dance of discovery and expression.
+                </p>
+            </div>
+        </div>
+        <div class="image-content">
+            <img src="https://ik.imagekit.io/07om3f7hz/Trendles.png?updatedAt=1722250324181" alt="Home" />
+        </div>
+    </div><br>
+    <div class="timeline">
+        <h1>Clubs</h1>
+        <div>
+            <ul>
+                <li>
+                    <div>
+                        <p class="club">PR&nbsp;&&nbsp;Social Media</p>
+                        <p class="club-sub">"More stories, to limitless sky"</p>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <p class="club">Literary&nbsp;Club</p>
+                        <p class="club-sub">"Where words bring life"</p>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <p class="club">Chitrachaya</p>
+                        <p class="club-sub">"Let's capture now" </p>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <p class="club">Design&nbsp;Club</p>
+                        <p class="club-sub">"Patterning through the way of exsistence"</p>
+                    </div>
+                </li>
+                
+                <li>
+                    <div>
+                        <p class="club">Quizzing&nbsp;and Debating&nbsp;Club</p>
+                        <p class="club-sub">"Expanding minds, summoning knowledge"</p>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <p class="club">Outreach&nbsp;Club</p>
+                        <p class="club-sub">"Through the cobweb of millions 'n' millions"</p>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <p class="club">Social&nbsp;Impact Club</p>
+                        <p class="club-sub">"Change today for tomorrow"</p>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <p class="club">Manga&nbsp;Club</p>
+                        <p class="club-sub">"For otaku to create magic"</p>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <p class="club">Astronomy Club</p>
+                        <p class="club-sub">"To the infinity, beyond the world"</p>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <p class="club">Finance&nbsp;Club</p>
+                        <p class="club-sub">"When the dancing numbers bulid stability"</p>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <p class="club">Entrepreneur -Cell</p>
+                        <p class="club-sub">"Dreamers that make a difference"</p>
+                    </div>
+                </li>
+                
+            </ul>
+
+        </div>
+    </div>
+    <div class="end">
+        <div style="align-items: center;margin-top: 1rem;">
+            <a href="https://www.instagram.com/trendles_iiitk/?hl=en"><button class="icon"><i class="fa-brands fa-instagram"></i></button></a>
+
+            <a href="mailto:trendles@iiitkottayam.ac.in"><button class="icon"><i class="far fa-envelope"></i></button></a>
+            <a href="https://www.linkedin.com/company/trendles/"><button class="icon"><i
+                        class="fab fa-linkedin"></i></button></a>
+            <a href="https://www.youtube.com/c/IIITKottayam"><button class="icon"><i class="fa-brands fa-youtube"></i></button></a>
+        </div><br>
+        <p style="margin: 0;">trendles@iiitkottayam.ac.in</p>
+        <p style="margin: 0;">Copyright © 2024 by Trendles | All Rights Reserved</p>
+        <p>Indian Institute of Information Technology Kottayam</p>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>
